@@ -1,0 +1,17 @@
+prompt("What is your name?");
+
+var myName = "ACE";
+
+//console:
+myName
+//
+
+alert(myName);
+
+var yourName = prompt("What is your name?");
+
+//console:
+yourName
+//
+
+alert ("My name is " + myName + ", Your name is " + yourName + ".");

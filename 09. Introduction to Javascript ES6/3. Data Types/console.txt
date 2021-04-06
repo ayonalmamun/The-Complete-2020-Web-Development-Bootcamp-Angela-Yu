@@ -1,0 +1,9 @@
+2+3;
+
+alert(2+3);
+
+typeof(50);
+
+typeof("ACE");
+
+typeof(true);

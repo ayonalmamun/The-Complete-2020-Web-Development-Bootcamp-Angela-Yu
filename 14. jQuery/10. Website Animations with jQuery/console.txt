@@ -1,0 +1,8 @@
+after line 3:
+$("h1").show();
+
+after line 11:
+$("h1").fadeIn();
+
+after line 19:
+$("h1").slideDown();

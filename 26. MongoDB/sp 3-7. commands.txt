@@ -1,0 +1,92 @@
+mongod // starts mongoDB
+
+mongo // starts shell
+
+help 
+
+show dbs // show all databases
+
+use test // use or create db
+
+db // check which db I am using
+
+db.users.insertOne({
+name: "habu",
+age: 32
+
+})
+
+// users => name of the collection. if the "users" collection doesn't exist, 
+it will automatically create the collection while inserting.
+an unique id will automatically generated.
+
+or,
+
+db.users.insertOne({ _id: 1,name: "habu", age: 32  })
+
+// there is also a way to insert many items
+
+show collections // view all collections
+
+db.users.find() // show all things in users collections
+
+//
+https://docs.mongodb.com/manual/reference/operator/query/
+
+db.users.find({name: "kabila"}) // find user whose name is kabila
+
+db.users.find({age: 28"}) // find users who are 28 years old
+
+db.users.find({age: {$gt: 28}}) // find users who are older than 28 years
+
+db.users.find({age: {$gt: 28}}, {name: 1}) 
+// 
+find users "name" who are older than 28 years; 
+1 means true and 0 means false
+id always comes as default, but we can hide it.
+
+db.users.find({age: {$gt: 28}}, {name: 1, _id: 0}) // find users "name" who are older than 28 years without the id
+
+db.users.updateOne({_id: 1}, {$set: {cg: 3.75}}) // update where collection = users, id = 1, add cg = 3.75
+
+db.users.deleteOne({_id: 2})  // delete where collection = users, id = 2
+
+db.users.insert({
+_id: 2,
+name: "kabila",
+age:28,
+job: [
+{
+company: "BS",
+position: "Intern",
+salary: 10000
+},
+{
+company: "ES",
+position: "SE",
+salary: 40000
+}
+]
+})
+
+// one user might have job experience in multiple company, one to many relationships
+
+db.users.updateOne({_id: 1}, {$set: {
+job: [{
+company: "BS",
+position: "SE",
+salary: 30000
+},
+{
+company: "TMS",
+position: "AD",
+salary: 15000
+}
+]
+}
+}
+)
+
+// add job experience where id = 1
+
+db.dropDatabase() // delete a database

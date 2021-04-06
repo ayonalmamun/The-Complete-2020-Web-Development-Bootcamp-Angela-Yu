@@ -1,0 +1,21 @@
+mkdir exp
+
+cd exp
+
+ls
+
+touch file.txt
+
+start file.txt
+
+code -r file.txt  // vscode open a file
+
+code -r a.txt  // vscode create a file
+
+rm file.txt
+
+pwd // which directory I am in
+
+rm * // delete everthing from directory
+
+rm -r exp // remove a directory

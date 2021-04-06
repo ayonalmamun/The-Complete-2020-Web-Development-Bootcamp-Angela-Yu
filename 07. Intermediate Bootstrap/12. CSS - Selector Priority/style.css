@@ -1,0 +1,12 @@
+/* id>class>tag */
+h1 {
+  color: red;
+}
+
+.title {
+  color: yellow;
+}
+
+#heading {
+  color: blue;
+}

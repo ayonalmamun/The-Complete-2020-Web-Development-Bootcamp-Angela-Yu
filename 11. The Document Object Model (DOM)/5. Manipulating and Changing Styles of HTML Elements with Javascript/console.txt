@@ -1,0 +1,5 @@
+document.querySelector("h1").style.fontSize = "5rem";
+document.querySelector("h1").style.margin = "5%";
+document.querySelector("h1").style.visibility = "hidden";
+
+document.querySelector("button").style.background = "red";

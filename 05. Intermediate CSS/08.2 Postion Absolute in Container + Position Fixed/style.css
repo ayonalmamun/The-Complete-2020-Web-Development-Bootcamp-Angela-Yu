@@ -1,0 +1,33 @@
+/* absolute postion moves near to the parent position if the parent position is relative. 
+fixed makes the object's position totally fixed of the viewport */
+body {
+  margin: 0;
+}
+.container {
+  height: 400px;
+  width: 600px;
+  background-color: violet;
+  position: relative;
+}
+.top {
+  background-color: #a3d2ca;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 0px;
+}
+.middle {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+.bottom {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  top: 0px;
+}

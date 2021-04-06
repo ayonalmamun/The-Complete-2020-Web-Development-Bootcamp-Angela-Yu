@@ -1,0 +1,39 @@
+function main(){
+   putBeeper();
+   Chess();
+}
+
+function Chess(){
+   tr();
+   tl();
+   tr();
+   tl();
+   tr();
+}
+
+function tr(){
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();   
+   
+   turnLeft();
+}
+
+function tl(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   putBeeper();  
+   
+   turnRight();
+}

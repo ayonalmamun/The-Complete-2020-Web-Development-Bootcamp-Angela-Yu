@@ -1,0 +1,13 @@
+toUpperCase
+//
+var name = prompt("Name: ");
+var firstLetter = name.slice(0,1);
+firstLetter = firstLetter.toUpperCase();
+var l = name.length;
+var otherLetters = name.slice(1,l);
+otherLetters = otherLetters.toLowerCase();
+updatedName = firstLetter + otherLetters;
+
+alert("My name is " + updatedName + ".");
+//
+

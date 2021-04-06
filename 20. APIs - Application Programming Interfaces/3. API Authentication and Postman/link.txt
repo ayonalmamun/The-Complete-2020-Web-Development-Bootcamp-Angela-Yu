@@ -1,0 +1,1 @@
+http://api.openweathermap.org/data/2.5/weather?q=Dhaka,bd&APPID=c439a984044b3db5361d53f1f8d3e5f0&units=metric

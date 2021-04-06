@@ -1,0 +1,23 @@
+ls
+
+cd doc (tab) - go to documents
+
+cd ~ - go to root directory
+
+
+
+cd Saved\ Games/The\ Outer\ Worlds/ - go to saved games/the outerworlds
+
+cd .. - one level back
+
+cd Downloads/Video/
+
+cd F:\Downloads
+
+alt + click - to edit anywhere in the command
+
+ctrl + a - cursor at the beginning
+
+ctrl + e - cursor at the ending
+
+ctrl + u - clear line

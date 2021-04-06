@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+.abnormal {
+  display: inline-block;
+}
+/* p {
+  display: block;
+} */
+/* p {
+  display: inline;
+} */
+/* p {
+  display: none;
+} */
+.mp {
+  visibility: hidden;
+}
+.top {
+  background-color: #a3d2ca;
+}
+.middle {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.bottom {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+}

@@ -1,0 +1,4 @@
+function hi(name){
+	alert("hi " + name);
+}
+hi("Ayon");

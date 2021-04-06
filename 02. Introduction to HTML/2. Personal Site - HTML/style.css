@@ -1,0 +1,17 @@
+body {
+  background-color: #537fa5;
+}
+hr {
+  /* background-color: greenyellow; */
+  border-style: dotted none none;
+  width: 5%;
+  border-color: rgb(47, 255, 116);
+  border-width: 5px;
+}
+img {
+  height: 200px;
+}
+h1,
+h3 {
+  color: #3c2946;
+}

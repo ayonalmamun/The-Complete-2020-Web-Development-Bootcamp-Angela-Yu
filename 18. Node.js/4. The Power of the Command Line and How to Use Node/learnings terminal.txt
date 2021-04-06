@@ -1,0 +1,5 @@
+cd F:\Downloads\
+cd '.\C Drivre April 2020\'
+cd '.\Desktop\Web\Vscode Projects\The Complete 2020 Web Development Bootcamp\18. Node.js\'
+pwd
+ls

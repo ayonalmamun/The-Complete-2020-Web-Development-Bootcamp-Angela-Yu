@@ -1,0 +1,4 @@
+$("h1"); 
+vs
+document.querySelector("h1");
+same

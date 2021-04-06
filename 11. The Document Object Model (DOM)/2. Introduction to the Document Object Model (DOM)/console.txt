@@ -1,0 +1,14 @@
+document;
+document.firstElementChild;
+document.firstElementChild.firstElementChild;
+document.firstElementChild.lastElementChild;
+document.firstElementChild.lastElementChild.firstElementChild;
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+heading
+heading.innerHTML = "Sayonara";
+heading.style.color = "green";
+
+document.querySelector("input").click();
+
+DOM Challenge:
+document.firstElementChild.lastElementChild.lastElementChild.lastElementChild.innerHTML="Chiku";

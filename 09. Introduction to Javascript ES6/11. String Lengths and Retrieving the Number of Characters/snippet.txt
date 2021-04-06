@@ -1,0 +1,14 @@
+test 1:
+//
+var name = "Chikorita";
+name.length;
+//
+
+test 2:
+//
+var tweet = prompt("What's on your mind?");
+var left = 280 - tweet.length;
+console.log("You have written " + tweet.length + " characters & you have " + left + " characters left.");
+//
+
+

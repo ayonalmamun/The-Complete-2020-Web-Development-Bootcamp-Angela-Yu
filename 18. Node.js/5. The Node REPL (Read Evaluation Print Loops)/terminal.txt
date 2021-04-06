@@ -1,0 +1,7 @@
+node
+
+console.log("Hi");
+
+con [tab] [tab] // see the options
+
+.exit or ctrl + c // exit

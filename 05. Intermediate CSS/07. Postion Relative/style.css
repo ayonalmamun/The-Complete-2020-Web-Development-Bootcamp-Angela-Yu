@@ -1,0 +1,26 @@
+/* position static means normally following the html rules
+position relative means moving a object without moving other object */
+.top {
+  background-color: #a3d2ca;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  left: 350px;
+}
+.middle {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  right: 210px;
+}
+.bottom {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  right: 250px;
+}

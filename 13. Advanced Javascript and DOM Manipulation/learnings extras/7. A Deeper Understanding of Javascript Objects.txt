@@ -1,0 +1,23 @@
+// object
+
+var bellBoy1 = {
+name: "Kabila",
+age: 23,
+hasWorkPermit: true,
+languages: ["Bangla", "English"]
+}
+
+alert("My name is " + bellboy1.name + ".");
+
+// constructor function
+//function naming should be starting in capital letter
+
+function BellBoy (name,age,hasWorkPermit,languages){
+this.name = name;
+this.age = age;
+this.hasWorkPermit = hasWorkPermit;
+this.languages = languages;
+}
+
+var bellBoy1 = new BellBoy("Kabila", 23, true, ["Bangla", "English"]);
+console.log(bellBoy1.name);

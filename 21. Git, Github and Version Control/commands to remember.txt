@@ -1,0 +1,29 @@
+ls -a // to see all files including hidden files
+
+git add chapter1.txt // to add a single file
+
+git log // see all versions/commits
+
+// I will edit in chapter 3
+
+git diff chapter3.txt // see difference in previous versions
+
+git checkout chapter3.txt // went to last checkpoint
+
+git rm --cached -r . // every file will be removed from the commit
+
+//gitignore
+*.txt // all the files which has .txt extension will be ignored when committing
+
+//git clone
+git clone https://github.com/ayonalmamun/Problem-Solving-UVA.git
+
+git branch name // new git branch
+
+git branch // checking all git branch name
+
+git checkout name // switch to a branch
+
+git checkout master // switch to master
+
+git merge name // merge master with a branch

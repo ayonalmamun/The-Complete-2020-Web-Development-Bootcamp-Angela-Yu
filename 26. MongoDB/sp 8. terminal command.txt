@@ -1,0 +1,3 @@
+npm init -y // enters yes to all automatically and initialize npm
+
+npm i mongodb // you don't need --save in new version of npm

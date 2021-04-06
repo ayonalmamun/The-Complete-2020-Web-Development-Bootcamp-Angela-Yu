@@ -1,0 +1,26 @@
+document.getElementsByTagName("li");
+document.getElementsByTagName("li")[1].style.color = "green";
+document.getElementsByTagName("li")[2].innerHTML ="Chikuuu";
+document.getElementsByTagName("li").length;
+
+document.getElementsByClassName("btn")[0].style.color="red";
+
+document.getElementById("title").innerHTML = "Bujhlam";
+
+document.querySelector("#title");
+document.querySelector("h1");
+these two are same
+
+document.querySelector("li a");
+document.querySelector("a");
+
+document.querySelector("li.item");
+it will give only the first element. not all.
+
+document.querySelector("#list a");
+
+document.querySelectorAll("li.item");
+document.querySelectorAll("li.item")[2].style.color = "orange";
+
+Challenge:
+document.querySelector("li a").style.color = "yellow";

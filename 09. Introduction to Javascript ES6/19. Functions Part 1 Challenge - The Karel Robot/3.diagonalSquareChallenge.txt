@@ -1,0 +1,15 @@
+function main(){
+   putBeeper();
+   diagonalSquare();
+   diagonalSquare();
+   diagonalSquare();
+   diagonalSquare();
+}
+
+function diagonalSquare(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   turnRight();
+}

@@ -1,0 +1,9 @@
+toUpperCase
+//
+var name = prompt("Name: ");
+var nameUpperCase = name.toUpperCase();
+alert("My name is " + nameUpperCase + ".");
+var nameLowerCase = name.toLowerCase();
+alert("My name is " + nameLowerCase + ".");
+//
+

@@ -1,0 +1,13 @@
+.title {
+  color: red;
+}
+
+/* has both title and container class (combo)*/
+.title.container {
+  color: greenyellow;
+}
+
+/* title which is inside container-fluid (hierarchical)*/
+.container-fluid .title {
+  color: orange;
+}
